@@ -1,0 +1,98 @@
+.navBar {
+    height: 60px;
+}
+
+@media only screen and (max-width: 450px) {
+    .navBar {
+        height: 50px;
+    }
+}
+
+   .wrapper{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+   @media only screen and (max-width: 450px) {
+    .wrapper {
+        padding: 10px 0px;
+    }
+}
+   .Left{
+    flex: 1;
+    display: flex; 
+   }
+   @media only screen and (max-width: 450px) {
+    .Left {
+        flex: 1;
+        display: flex;
+    }
+    }
+
+   .Right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+   }
+   @media only screen and (max-width: 450px) {
+    .Right {
+        justify-content: center;
+        flex: 2;
+    }
+}
+   .Center{
+    flex: 1;
+   }
+   .language {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+    .language {
+        display: none;
+    }
+}
+
+   .searchContainer{
+    border: .5px solid gray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+   }
+   @media only screen and (max-width: 450px) {
+    .searchContainer {
+        margin-left: 5px;}
+    }
+   .searchBar{
+    border: none;
+   }
+   @media only screen and (max-width: 450px) {
+    .searchBar {
+        width: 50px;
+        margin-left: -5px;
+    }
+}
+   .searchBar:focus{
+    outline: none;
+   }
+   .logo{
+    font-weight: bold;
+    text-align: center;
+   }
+   @media only screen and (max-width: 450px) {
+    .logo {
+        font-size: 24px;}
+    }
+   .menuItem{
+    font-style: 14px;
+    margin-left: 25px;
+    cursor: pointer;
+   }
+   @media only screen and (max-width: 450px) {
+    .menuItem {
+        font-size: 12px;
+    margin-left: 4px;}
+    }

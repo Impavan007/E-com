@@ -1,0 +1,11 @@
+.ContainerCategory{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+   
+}
+@media only screen and (max-width: 450px) {
+    .ContainerCategory {
+        padding:0px;
+    flex-direction: column;}
+    }

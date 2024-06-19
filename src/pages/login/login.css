@@ -1,0 +1,61 @@
+.LogContainer{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+     
+}
+.LogWraper{
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+   
+    justify-content: center;
+}
+@media only screen and (max-width: 450px) {
+    .LogWraper {
+        width: 75%;}
+    }
+.LogTitle{
+    font-size: 24px;
+    font-weight: 300;
+
+}
+.LogForm{
+    display: flex;
+    flex-direction: column;
+
+}
+.LogInput{
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px; 
+}
+.AGREEMENT{
+    font-size: 12px;
+    margin: 20px 0px;
+
+}
+.cra1{
+    margin: 10px 0px;
+    width: 40%;
+    bottom: none;
+    padding: 15px 20px;
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+    }
+
+}
+.Link{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
